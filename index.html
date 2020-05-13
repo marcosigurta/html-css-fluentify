@@ -5,82 +5,55 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <title>Document</title>
 </head>
 
 <body>
   <!-- HEADER -->
 
-  <header class="center-content">
+  <header class="">
     <!-- NAVBAR -->
-    <nav>
-      <div class="navbar navbar-left">
-        <img id="logo" src="../html-css-fluentify/img/fluentify-imgs/fluentify-logo.svg" alt="" />
-        <ul>
-          <li>
-            <a href="">Link</a>
-          </li>
-          <li>
-            <a href="">Link</a>
-          </li>
-          <li>
-            <a href="">Link</a>
-          </li>
-          <li>
-            <a href="">Link</a>
-          </li>
-        </ul>
+    <div class="h-container clearfix center">
+      <div class="h-logo">
+        <img src="../html-css-fluentify/img/fluentify-imgs/fluentify-logo.svg" alt="">
       </div>
-
-      <div class="navbar navbar-right">
+      <nav class="nav-left clearfix">
         <ul>
-          <li>
-            <a href="">Link</a>
-          </li>
-          <li>
-            <button class="btn login">Accedi</button>
-          </li>
-          <li>
-            <button class="btn small">Struttura un piano</button>
-          </li>
+          <li><a href="">IL METODO</a></li>
+          <li><a href="">LA TECNOLOGIA</a></li>
+          <li><a href="">REAL-LIFE ENGLISH</a></li>
+          <li><a href="">SOLUZIONI AZIENDALI</a></li>
         </ul>
-      </div>
-
-
-
-    </nav>
-
-    <!-- HEADER TITLE | BUTTON  -->
-
-    <div class="title">
-      <h1>
-        Scegli l'inglese studiato <br />
-        per i professionisti
-      </h1>
-      <button class="btn large">
-        Struttura un piano
-      </button>
+      </nav>
+      <nav class="nav-right clearfix">
+        <ul>
+          <li><a href="">DIVENTA UN TUTOR</a></li>
+          <li><a href=""><button class="btn login">LOGIN</button></a></li>
+          <li><a href=""><button class="btn large">STRUTTURA DI UN PIANO</button><a>
+          <li>
+        </ul>
+      </nav>
+    </div>
+    <div class="page-title center">
+      <h1>SCEGLI L'INGLESE STUDIATO <br>
+        PER PROFESSIONISTI</h1>
+      <button class="btn large">STRUTTURA UN PIANO</button>
     </div>
   </header>
 
-  <!-- MAIN -->
 
-  <main class="">
+  <main>
+    <div class="main">
+      <div class="grey-advice">
+        <h2>Le scuole di lingua tradizionali non sono efficaci</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quent nemo.</p>
+      </div>
+    </div>
+
     <!-- SECTION 1 -->
 
-    <section class="first_section center-content">
-      <h2>
-        Le scuole di lingua tradizionali non sono efficaci
-      </h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque libero
-        ea Lorem, ipsum dolor sit amet consectetur
-      </p>
-    </section>
-
-    <!-- SECTION 2 -->
-
-    <section class="clearfix section-2">
+    <section class="clearfix section-1">
       <div class="column">
         <img src="../html-css-fluentify/img/fluentify-imgs/fluentify-piano.svg" alt="" />
         <h2 class="green-title">
@@ -97,7 +70,7 @@
         </p>
       </div>
       <div class="column">
-        <img src="../html-css-fluentify/img/fluentify-imgs/fluentify-affiancamento.svg" alt="" />
+        <img class="pc-img" src="../html-css-fluentify/img/fluentify-imgs/fluentify-affiancamento.svg" alt="" />
         <h2 class="green-title">
           Lorem
         </h2>
@@ -133,11 +106,11 @@
         </p>
       </div>
     </section>
-    <hr>
 
-    <!-- SECTION 3 -->
 
-    <section class="section-3 clearfix column-center">
+    <!-- SECTION 2 -->
+
+    <section class="section-2 clearfix center">
       <div class="column-2">
         <img src="../html-css-fluentify/img/fluentify-imgs/fluentify-scopri.svg" alt="">
       </div>
@@ -147,23 +120,30 @@
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, consequatur odio vero eos quidem ex eius quae laborum aut optio doloremque amet alias voluptas dolor ipsam dolorem et. A, re
         </p>
-        <a href="">Link LINK LINK</a>
+        <a class="section-2-link" href="">Scopri il nostro test di Placement</a>
       </div>
     </section>
 
-    <!-- SECTION 4 -->
+    <!-- SECTION 3 -->
 
-    <section class="section-4 clearfix center-content">
-      <div class="column">
-        <h2>Lorem ipsum dolor sit amet.</h2>
-      </div>
-      <div class="column-right">
-        <div class="sub-section">
-          <span>sono</span>
-          <span>Seleziona </span>
-          <span><button class="large">Bottone grande</button></span>
-          <button class="small">mini</button>
+    <section class="section-3">
+      <div class="center clearfix">
+        <div class="column">
+          <h2>Lorem ipsum dolor sit amet.</h2>
         </div>
+        <div class="column-right clearfix">
+          <div class="sub-section">
+            <span>Sono</span>
+            <span class="selection-menu">Seleziona</span>
+            <span><i class="fa fa-caret-down"></i></span>
+            <span>
+              <div class="buttons">
+                <button class="btn large">VISUALIZZA IL TUO PIANO</button>
+            </span>
+            <button class="btn help">HELP</button>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 </body>
